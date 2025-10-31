@@ -1,0 +1,60 @@
+{
+  "name": "tourze/product-collect-bundle",
+  "description": "商品收藏模块 - 提供用户商品收藏功能",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "doctrine/data-fixtures": "^2.0",
+    "doctrine/dbal": "^4.0",
+    "doctrine/doctrine-bundle": "^2.13",
+    "doctrine/orm": "^3.0",
+    "doctrine/persistence": "^4.1",
+    "easycorp/easyadmin-bundle": "^4",
+    "knplabs/knp-menu": "^3.7",
+    "symfony/config": "^7.3",
+    "symfony/dependency-injection": "^7.3",
+    "symfony/doctrine-bridge": "^7.3",
+    "symfony/form": "^7.3",
+    "symfony/framework-bundle": "^7.3",
+    "symfony/http-foundation": "^7.3",
+    "symfony/http-kernel": "^7.3",
+    "symfony/security-core": "^7.3",
+    "symfony/validator": "^7.3",
+    "symfony/yaml": "^7.3",
+    "tourze/biz-user-bundle": "0.0.*",
+    "tourze/bundle-dependency": "1.*",
+    "tourze/doctrine-indexed-bundle": "0.0.*",
+    "tourze/doctrine-snowflake-bundle": "0.1.*",
+    "tourze/doctrine-timestamp-bundle": "0.0.*",
+    "tourze/easy-admin-menu-bundle": "0.1.*",
+    "tourze/enum-extra": "0.1.*",
+    "tourze/product-core-bundle": "0.0.*",
+    "tourze/symfony-dependency-service-loader": "0.0.*",
+    "tourze/tag-manage-bundle": "0.0.*"
+  },
+  "require-dev": {
+    "doctrine/doctrine-fixtures-bundle": "^4.0",
+    "phpstan/phpstan": "^2.1",
+    "phpunit/phpunit": "^11.5",
+    "symfony/test-pack": "^1.0",
+    "tourze/phpunit-base": "1.*",
+    "tourze/phpunit-doctrine-entity": "0.0.*",
+    "tourze/phpunit-enum": "0.0.*",
+    "tourze/phpunit-symfony-kernel-test": "0.0.*",
+    "tourze/phpunit-symfony-unit-test": "0.0.*",
+    "tourze/phpunit-symfony-web-test": "0.0.*",
+    "tourze/symfony-testing-framework": "0.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tourze\\ProductCollectBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tourze\\ProductCollectBundle\\Tests\\": "tests/"
+    }
+  },
+  "version": "0.0.1"
+}

@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  # 测试环境下的DataFixtures相关服务配置
+  Tourze\ProductCollectBundle\DataFixtures\ProductCollectFixtures:
+    tags: ['doctrine.fixture.orm']

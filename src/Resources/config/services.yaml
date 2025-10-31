@@ -1,0 +1,15 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  # Services
+  Tourze\ProductCollectBundle\Service\AdminMenu: ~
+  Tourze\ProductCollectBundle\Service\ProductCollectService: ~
+
+  # Controllers
+  Tourze\ProductCollectBundle\Controller\Admin\ProductCollectCrudController:
+    public: true
+
+  Tourze\ProductCollectBundle\Repository\:
+    resource: '../../Repository/'
