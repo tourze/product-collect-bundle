@@ -32,7 +32,7 @@
     "tourze/enum-extra": "1.*",
     "tourze/product-core-bundle": "0.0.*",
     "tourze/symfony-dependency-service-loader": "1.*",
-    "tourze/tag-manage-bundle": "0.0.*"
+    "tourze/tag-manage-bundle": "1.0.*"
   },
   "require-dev": {
     "doctrine/doctrine-fixtures-bundle": "^4.0",
