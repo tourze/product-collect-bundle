@@ -11,6 +11,7 @@ use Tourze\BundleDependency\BundleDependencyInterface;
 use Tourze\DoctrineIndexedBundle\DoctrineIndexedBundle;
 use Tourze\DoctrineSnowflakeBundle\DoctrineSnowflakeBundle;
 use Tourze\DoctrineTimestampBundle\DoctrineTimestampBundle;
+use Tourze\EasyAdminMenuBundle\EasyAdminMenuBundle;
 use Tourze\ProductCoreBundle\ProductCoreBundle;
 
 class ProductCollectBundle extends Bundle implements BundleDependencyInterface
@@ -28,6 +29,7 @@ class ProductCollectBundle extends Bundle implements BundleDependencyInterface
             DoctrineSnowflakeBundle::class => ['all' => true],
             DoctrineTimestampBundle::class => ['all' => true],
             ProductCoreBundle::class => ['all' => true],
+            EasyAdminMenuBundle::class => ['all' => true],
         ];
     }
 }
