@@ -39,6 +39,9 @@ use Tourze\ProductCollectBundle\Enum\CollectStatus;
 use Tourze\ProductCollectBundle\Repository\ProductCollectRepository;
 use Tourze\ProductCoreBundle\Entity\Sku;
 
+/**
+ * @template-extends AbstractCrudController<ProductCollect>
+ */
 #[AdminCrud(routePath: '/product-collect/product-collect', routeName: 'product_collect_product_collect')]
 #[Autoconfigure(public: true)]
 final class ProductCollectCrudController extends AbstractCrudController

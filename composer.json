@@ -55,6 +55,5 @@
     "psr-4": {
       "Tourze\\ProductCollectBundle\\Tests\\": "tests/"
     }
-  },
-  "version": "0.0.1"
+  }
 }
